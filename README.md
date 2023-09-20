@@ -16,11 +16,16 @@
 * typeSpacersFromFasta.pl
 * typeSpacersFromFasta_frequency.pl - extract and classify spacers (adding frequencies)
 
-## R scripts (figures)
-* fig2.R
-* fig3.R
-* fig4.R
-* fig5.R
-* fig6.R
-* fig7.R
-* supplfigs2.R
+## R scripts (figure script: input files)
+* fig2.R: all.gggenes
+* fig3.R: islands.xlsx, p1virus.ab, p1virus_incomplete.ab, ../types/ifa.ab, ../types/ifb.ab
+* fig4.R: metadata_ab_def_caudovirus.tsv, tree.tree, metadata_st79.tsv, ppcrispr/data/CP087336/polymorphisms_move.phy_phyml_tree.txt, metadata_ppcrispr.tsv, pp_completos/data/CP087336/polymorphisms_move.phy_phyml_tree.txt, metadata_pp.tsv
+* fig5.R: nspacers3.tsv, nspacers_types.tsv, rp_ifa1.seq, rp_ifa2.seq, rp_ifb.seq
+* fig6.R: variants_spacers2.tsv
+* fig7.R: pam_p1virus_ifa1_12.seq, pam_p1virus_ifa2_12.seq, pam_p1virus_ifb_12.seq, spacers_vs_ab00002_80_80_2.tsv, spacers_vs_p1virusffn_ditribution.tsv, ../gggenes/p1virus.gggenes, pam_freq_p1virus_cds.tsv
+* supplfigs2.R: ../../spacers_new/virus_100_phage.id, ../../strains.ab, phage_matrix_p1virus.tsv, metadata_ab_phigaro.tsv
+
+# Additional files
+* ref_phigaro_ab.fasta: prophages (references)
+* all_ab_phigaro_out_sup8kb.fasta: prophages (all)
+* ab_phigaro.asoc: (prophage clusters)
