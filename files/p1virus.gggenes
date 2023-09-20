@@ -1,0 +1,97 @@
+molecule	gene	id	start	end	strand	direction	unknown	Spacers
+P1virus	unknown171	ab00001_02129	4191	3982	-	reverse	Uncharacterized	Yes
+P1virus	unknown18015	ab08123_02645	4697	4188	-	reverse	Uncharacterized	
+P1virus	unknown174	ab00001_02133	5693	5403	-	reverse	Uncharacterized	Yes
+P1virus	J619_03012	ab00001_02134	6862	5834	-	reverse	Other	Yes
+P1virus	T630_2262	ab00001_02157	20523	21212	+	forward	Other	Yes
+P1virus	T630_2262	ab00001_02157	21213	21899	+	forward	Other	Yes
+P1virus	dcm__37	ab03135_01158	23211	25499	+	forward	Other	Yes
+P1virus	J633_0229	ab00001_02166	30390	30980	+	forward	Other	Yes
+P1virus	unknown2374	ab00057_01137	31299	32744	+	forward	Uncharacterized	
+P1virus	J633_0229	ab00001_02166	38707	40245	+	forward	Other	Yes
+P1virus	unknown15541	ab07261_00699	45541	46836	+	forward	Uncharacterized	Yes
+P1virus	unknown196	ab00001_02194	51672	52565	+	forward	Uncharacterized	
+P1virus	unknown200	ab00001_02200	66015	66668	+	forward	Uncharacterized	Yes
+P1virus	unknown14779	ab06730_02197	68694	70145	+	forward	Uncharacterized	Yes
+P1virus	unknown18013	ab08110_00126	75320	76018	+	forward	Uncharacterized	
+P1virus	unknown127	ab00001_01548	79013	78171	-	reverse	Uncharacterized	Yes
+P1virus	dinB	ab00001_00141	80678	80211	-	reverse	Other	Yes
+P1virus	_dinB_2	ab00001_00142	80815	80681	-	reverse	Other	Yes
+P1virus	ABSDF2517	ab00001_02123	1	1158	+	forward	Other	
+P1virus	J508_3243	ab00001_02124	1155	2039	+	forward	Other	
+P1virus	unknown167	ab00001_02125	2030	2485	+	forward	HTJ	
+P1virus	unknown168	ab00001_02126	2600	3592	+	forward	Uncharacterized	
+P1virus	unknown169	ab00001_02127	3769	3599	-	reverse	Uncharacterized	
+P1virus	unknown170	ab00001_02128	3985	3770	-	reverse	Uncharacterized	
+P1virus	unknown172	ab00001_02131	5230	4694	-	reverse	Uncharacterized	
+P1virus	unknown173	ab00001_02132	5402	5223	-	reverse	Uncharacterized	
+P1virus	exoX__2	ab00001_02135	7555	6875	-	reverse	Other	
+P1virus	unknown175	ab00001_02136	8097	7726	-	reverse	Uncharacterized	
+P1virus	ABZJ_00919	ab00001_02137	8423	8094	-	reverse	Other	
+P1virus	unknown176	ab00001_02138	8742	8482	-	reverse	Uncharacterized	Yes
+P1virus	unknown177	ab00001_02139	9630	8827	-	reverse	Major capsid	
+P1virus	unknown178	ab00001_02140	10002	9670	-	reverse	Uncharacterized	Yes
+P1virus	unknown335	ab00002_02593	10493	10218	-	reverse	Uncharacterized	
+P1virus	J508_3225	ab00001_02142	11194	10505	-	reverse	Other	
+P1virus	J508_3224	ab00001_02143	11321	11554	+	forward	Other	
+P1virus	unknown180	ab00001_02144	11587	11961	+	forward	Uncharacterized	
+P1virus	unknown181	ab00001_02145	11995	12195	+	forward	Uncharacterized	
+P1virus	unknown182	ab00001_02146	12192	12377	+	forward	Uncharacterized	
+P1virus	unknown182	ab00001_02146	12374	12829	+	forward	Uncharacterized	
+P1virus	unknown334	ab00002_02586	12826	13473	+	forward	Uncharacterized	
+P1virus	_cysH_1	ab00001_02150	13470	14836	+	forward	Other	
+P1virus	_cysH_1	ab00001_02150	14450	14836	+	forward	Other	
+P1virus	bspRIM	ab00001_02151	14833	16311	+	forward	Other	
+P1virus	unknown19310	ab08884_01055	16315	17358	+	forward	Uncharacterized	
+P1virus	dnaC	ab00001_02153	17355	18119	+	forward	Other	
+P1virus	unknown333	ab00002_02580	18116	18649	+	forward	Uncharacterized	
+P1virus	p3ABAYE0097__3	ab00001_02155	19105	19560	+	forward	Other	
+P1virus	T630_2261	ab00001_02158	21913	22749	+	forward	Minor capsid	
+P1virus	unknown332	ab00002_02575	22865	23128	+	forward	Uncharacterized	
+P1virus	J567_3287	ab00002_02573	25513	26568	+	forward	Other	
+P1virus	unknown331	ab00002_02572	26892	27833	+	forward	Uncharacterized	
+P1virus	ant	ab00001_02188	27898	28797	+	forward	Other	
+P1virus	unknown330	ab00002_02570	29285	28869	-	reverse	Portal	
+P1virus	ABZJ_00948	ab00001_02165	29483	30424	+	forward	Minor capsid	
+P1virus	unknown2375	ab00057_01138	30980	31318	+	forward	Uncharacterized	
+P1virus	unknown186	ab00001_02169	32732	33346	+	forward	Uncharacterized	
+P1virus	unknown19419	ab08931_03074	33425	33883	+	forward	Uncharacterized	
+P1virus	unknown187	ab00001_02171	33895	34122	+	forward	Uncharacterized	
+P1virus	ABZJ_00955	ab00001_02172	34195	35100	+	forward	Other	
+P1virus	unknown2373	ab00057_01132	35103	35906	+	forward	Uncharacterized	
+P1virus	J804_3307	ab00001_02174	35899	36099	+	forward	Other	
+P1virus	unknown188	ab00001_02175	36111	36623	+	forward	Baseplate	
+P1virus	unknown3556	ab00110_03276	36643	38634	+	forward	Uncharacterized	
+P1virus	unknown189	ab00001_02178	40260	40538	+	forward	Uncharacterized	
+P1virus	B9X62_15295	ab00001_02179	40540	41670	+	forward	Other	Yes
+P1virus	unknown2362	ab00056_00926	41660	42208	+	forward	Uncharacterized	
+P1virus	unknown190	ab00001_02181	42205	42507	+	forward	Uncharacterized	
+P1virus	unknown7005	ab01313_02661	42662	44440	+	forward	Major capsid	
+P1virus	unknown191	ab00001_02183	44504	45130	+	forward	Major tail	
+P1virus	unknown192	ab00001_02184	45135	45422	+	forward	Uncharacterized	
+P1virus	unknown193	ab00001_02186	46855	47622	+	forward	Major capsid	
+P1virus	unknown6550	ab01060_00314	47684	47962	+	forward	Portal	
+P1virus	ant	ab00001_02188	48944	48048	-	reverse	Other	
+P1virus	p3ABAYE0083__2	ab00001_02189	49151	49402	+	forward	Other	
+P1virus	relB	ab00001_02190	49936	50223	+	forward	Other	
+P1virus	relE__2	ab00001_02191	50186	50452	+	forward	Other	
+P1virus	unknown194	ab00001_02192	50579	51223	+	forward	Uncharacterized	
+P1virus	unknown195	ab00001_02193	51223	51672	+	forward	Uncharacterized	
+P1virus	unknown17354	ab07685_00109	52575	62930	+	forward	Major capsid	
+P1virus	unknown194	ab00001_02192	62931	63329	+	forward	Uncharacterized	
+P1virus	unknown329	ab00002_02537	63329	64099	+	forward	Uncharacterized	
+P1virus	unknown199	ab00001_02198	64321	64127	-	reverse	Uncharacterized	
+P1virus	ABZJ_00983	ab00001_02199	64480	66015	+	forward	Portal	Yes
+P1virus	ABZJ_00985	ab00001_02201	66742	68694	+	forward	Portal	
+P1virus	unknown14907	ab06846_01268	70296	70925	+	forward	Uncharacterized	
+P1virus	ZPR_1421	ab04934_01003	70922	72001	+	forward	Other	
+P1virus	unknown8344	ab01818_02110	72232	72930	+	forward	Uncharacterized	
+P1virus	unknown328	ab00002_02528	73988	73089	-	reverse	Uncharacterized	
+P1virus	p3ABAYE0083__3	ab00002_02527	74190	74438	+	forward	Other	
+P1virus	unknown202	ab00001_02205	74526	75320	+	forward	Tail fiber	
+P1virus	unknown203	ab00001_02207	76050	76229	+	forward	Uncharacterized	
+P1virus	F958_02309	ab00001_02208	76353	76640	+	forward	Other	
+P1virus	A7M90_12505	ab00001_02209	76637	77407	+	forward	Other	
+P1virus	ABSDF0707	ab00001_02210	78174	77533	-	reverse	Other	
+P1virus	unknown288	ab00001_03243	80174	79158	-	reverse	Uncharacterized	
+P1virus	unknown11	ab00001_00143	80964	81629	+	forward	Uncharacterized	

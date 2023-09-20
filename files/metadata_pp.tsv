@@ -1,0 +1,166 @@
+ID	MLST	P1virus	Defense_system	R-M	Coverage
+ab00029	ST33			R-M	78
+ab00203	ST237		I-Fa(ssrA)		78
+ab00264	ST15			R-M	80
+ab00387	Unknown				74
+ab00409	ST16				74
+ab00413	ST2	P1virus		R-M	81
+ab00415	ST2	P1virus		R-M	81
+ab00416	Unknown			R-M	74
+ab00420	Unknown			R-M	74
+ab00421	Unknown			R-M	74
+ab00422	Unknown			R-M	74
+ab00426	ST16				74
+ab00431	Unknown				74
+ab00432	ST16				74
+ab00433	Unknown			R-M	74
+ab00498	ST23	P1virus(i)	I-Fa(i)		82
+ab00564	ST16		I-Fa(p-p)		100
+ab01203	ST2			R-M	88
+ab01262	ST941			R-M	81
+ab01266	ST374			R-M	81
+ab01268	ST16	P1virus(i)	I-Fa(p-p)		92
+ab01279	ST23		I-Fa(ssrA)	R-M	76
+ab01280	ST23		I-Fa(i)	R-M	76
+ab01287	ST575	P1virus(i)			77
+ab01298	ST575	P1virus(i)		R-M	83
+ab01403	Unknown			R-M	87
+ab01408	ST107	P1virus			76
+ab01409	Unknown			R-M	78
+ab01411	Unknown			R-M	87
+ab01478	ST16		I-Fa(p-p)		100
+ab01481	ST10			R-M	93
+ab01491	ST10			R-M	91
+ab01501	ST10	P1virus(i)		R-M	93
+ab01509	ST16		I-Fa(p-p)		100
+ab01511	ST16		I-Fa(p-p)		100
+ab01513	ST16		I-Fa(p-p)		100
+ab01514	ST16		I-Fa(p-p)		100
+ab01515	ST16		I-Fa(p-p)		100
+ab01530	ST141	P1virus(i)			91
+ab01531	ST10			R-M	91
+ab01637	ST2			R-M	79
+ab01641	ST2	P1virus		R-M	78
+ab01651	Unknown				91
+ab01654	Unknown			R-M	71
+ab02024	ST285				93
+ab02245	Unknown			R-M	72
+ab02308	ST78	P1virus(i)			82
+ab02311	ST976				85
+ab02368	ST33			R-M	80
+ab02420	ST960		I-Fa(ssrA)		76
+ab02596	ST2	P1virus		R-M	81
+ab02597	ST2	P1virus		R-M	81
+ab03025	ST2	P1virus		R-M	80
+ab03035	ST2				72
+ab03082	ST2				73
+ab03091	Unknown	P1virus(i)		R-M	73
+ab03094	ST2	P1virus		R-M	80
+ab03515	ST2	P1virus			81
+ab03535	ST570	P1virus(i)		R-M	77
+ab03539	ST113		I-Fa(i)	R-M	79
+ab03562	ST16			R-M	76
+ab03709	ST38			R-M	77
+ab03712	ST11				79
+ab03716	ST36			R-M	79
+ab03718	ST37			R-M	77
+ab03737	ST2			R-M	80
+ab03783	ST639			R-M	75
+ab03853	ST16			R-M	76
+ab03894	Unknown			R-M	75
+ab03980	ST54				72
+ab04000	ST652			R-M	93
+ab04003	ST652			R-M	93
+ab04013	ST652			R-M	93
+ab04216	Unknown				81
+ab04217	ST336				76
+ab04258	Unknown	P1virus(i)		R-M	80
+ab04289	ST40				80
+ab04290	ST40				80
+ab04292	ST40				80
+ab04307	ST40				80
+ab04343	ST23		I-Fa(i)		84
+ab04815	Unknown				80
+ab04818	ST40				80
+ab04871	ST16			R-M	76
+ab04991	ST2	P1virus(i)			79
+ab05032	ST78	P1virus(i)		R-M	80
+ab05104	ST54			R-M	79
+ab05263	ST2				80
+ab05441	Unknown	P1virus(i)			76
+ab05478	ST46	P1virus(i)			76
+ab05596	ST920				95
+ab05649	ST1168				74
+ab05708	ST10	P1virus		R-M	76
+ab05760	ST150		I-Fa(ssrA)		77
+ab05801	ST10			R-M	73
+ab05807	ST203			R-M	82
+ab05853	ST32			R-M	80
+ab05878	ST150		I-Fa		72
+ab05896	ST10	P1virus		R-M	76
+ab05982	ST10			R-M	73
+ab05984	ST2				72
+ab06033	ST16	P1virus	I-Fa(p-p)		92
+ab06097	ST164			R-M	80
+ab06106	ST138		I-Fa	R-M	81
+ab06171	ST1543	P1virus		R-M	72
+ab06292	ST626		I-Fa(p-p)		91
+ab06363	ST150		I-Fa(i)		79
+ab06374	ST10	P1virus		R-M	73
+ab06383	ST341		I-Fa(i)	R-M	81
+ab06514	ST164			R-M	80
+ab06800	ST136				76
+ab06810	ST77				93
+ab07224	ST1				75
+ab07237	ST388			R-M	74
+ab07238	ST54			R-M	77
+ab07253	ST32			R-M	80
+ab07264	ST40				81
+ab07269	ST16			R-M	76
+ab07276	ST10			R-M	82
+ab07278	ST56			R-M	70
+ab07290	ST1126				73
+ab07327	ST49		I-Fa(ssrA)		76
+ab07403	ST152		I-Fa		78
+ab07404	ST152		I-Fa		78
+ab07424	ST638			R-M	73
+ab07432	ST1230				86
+ab07593	ST150		I-Fa(ssrA)		77
+ab07967	ST2	P1virus			71
+ab07997	ST1479		I-Fa(i)		72
+ab07999	ST16		I-Fa(p-p)		100
+ab08000	ST16		I-Fa(p-p)		100
+ab08006	ST1548			R-M	77
+ab08076	Unknown		I-Fa(ssrA)	R-M	77
+ab08148	ST49		I-Fa(ssrA)	R-M	76
+ab08367	ST1			R-M	77
+ab08430	Unknown		I-Fa		81
+ab08476	ST57		I-Fa(ssrA)	R-M	73
+ab08490	ST150		I-Fa		80
+ab08497	ST164			R-M	73
+ab08654	ST164			R-M	73
+ab08750	ST1554			R-M	89
+ab08914	Unknown				79
+ab08926	ST2	P1virus(i)		R-M	73
+ab09112	ST1233				74
+ab09168	ST49		I-Fa(ssrA)		76
+ab09169	ST49		I-Fa(ssrA)		76
+ab09418	ST16		I-Fa(p-p)		100
+ab09439	ST16		I-Fa(p-p)		100
+ab09443	Unknown				94
+ab09444	ST129	P1virus(i)		R-M	79
+ab09550	ST164			R-M	79
+ab09551	ST129	P1virus(i)		R-M	78
+ab09553	ST129	P1virus(i)		R-M	79
+ab09557	ST16	P1virus	I-Fa(p-p)		100
+ab09561	ST16	P1virus	I-Fa(p-p)		100
+ab09568	ST129	P1virus(i)	I-Fa(i)	R-M	79
+ab09574	ST16		I-Fa(p-p)		100
+ab09579	ST129	P1virus(i)		R-M	79
+ab09580	ST113			R-M	83
+ab09583	ST16		I-Fa(p-p)		100
+ab09585	ST16		I-Fa(p-p)		100
+ab09590	ST129	P1virus(i)		R-M	79
+ab09633	Unknown				95
+ab09657	ST15			R-M	80
+CP087336	ST32		I-Fa		100

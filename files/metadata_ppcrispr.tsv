@@ -1,0 +1,21 @@
+ID	MLST	Source	P1virus	CRISPR-Cas	VirusCRISPR	Coverage	Country
+ab00564	ST16	Canada		I-Fa(p-p)	inVirus	100	ca
+ab01268	ST16	Myanmar	P1virus(i)	I-Fa(p-p)	inVirus	92	mm
+ab01478	ST16			I-Fa(p-p)	inVirus	100	NA
+ab01509	ST16			I-Fa(p-p)	inVirus	100	NA
+ab01511	ST16			I-Fa(p-p)	inVirus	100	NA
+ab01513	ST16			I-Fa(p-p)	inVirus	100	NA
+ab01514	ST16			I-Fa(p-p)	inVirus	100	NA
+ab01515	ST16			I-Fa(p-p)	inVirus	100	NA
+ab06033	ST16	Thailand	P1virus	I-Fa(p-p)	inVirus	92	th
+ab06292	ST626	China		I-Fa(p-p)	inVirus	91	cn
+ab07999	ST16	Thailand		I-Fa(p-p)	inVirus	100	th
+ab08000	ST16	Thailand		I-Fa(p-p)	inVirus	100	th
+ab09418	ST16	Thailand		I-Fa(p-p)	inVirus	100	th
+ab09439	ST16	Thailand		I-Fa(p-p)	inVirus	100	th
+ab09557	ST16	Thailand	P1virus	I-Fa(p-p)	inVirus	100	th
+ab09561	ST16	Thailand	P1virus	I-Fa(p-p)	inVirus	100	th
+ab09574	ST16	Thailand		I-Fa(p-p)	inVirus	100	th
+ab09583	ST16	Thailand		I-Fa(p-p)	inVirus	100	th
+ab09585	ST16	Thailand		I-Fa(p-p)	inVirus	100	th
+CP087336	ST32	Germany		I-Fa(p-p)	inVirus	100	de

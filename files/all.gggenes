@@ -1,0 +1,174 @@
+molecule	gene	start	end	strand	direction	unknown
+Asparagine_synthase (68)	fecR__3	1	930	+	forward	Head-tail joining
+Asparagine_synthase (68)	unknown5644	1338	1562	+	forward	Uncharacterized
+Asparagine_synthase (68)	ABAYE2712__11	1519	2136	+	forward	Other
+Asparagine_synthase (68)	hxlR__8	5187	5005	-	reverse	Head-tail joining
+Asparagine_synthase (68)	araJ	5470	6639	+	forward	Collar
+Asparagine_synthase (68)	_hemA_1	6661	7857	+	forward	Other
+Asparagine_synthase (68)	SAMN02799616_03093	7850	8362	+	forward	Other
+Asparagine_synthase (68)	Bpet1327	8359	8895	+	forward	Other
+Asparagine_synthase (68)	Bpet1327	8912	9427	+	forward	Other
+Asparagine_synthase (68)	asnB	9445	11295	+	forward	Portal
+Choline_transporter (2671)	betT__5	1	1284	+	forward	Other
+Choline_transporter (2671)	unknown1928	1432	2199	+	forward	Uncharacterized
+Choline_transporter (2671)	T630_0987	2398	2625	+	forward	Other
+Choline_transporter (2671)	T630_0987	2628	2837	+	forward	Other
+Choline_transporter (2671)	unknown327	2834	3388	+	forward	Uncharacterized
+Choline_transporter (2671)	unknown326	3381	3749	+	forward	Uncharacterized
+Choline_transporter (2671)	unknown325	3759	4064	+	forward	Uncharacterized
+Choline_transporter (2671)	unknown324	4067	4183	+	forward	Uncharacterized
+Choline_transporter (2671)	unknown324	4186	4464	+	forward	Uncharacterized
+Choline_transporter (2671)	unknown323	4477	6942	+	forward	Portal
+Choline_transporter (2671)	ssb	7276	7392	+	forward	Other
+Choline_transporter (2671)	unknown322	7615	9057	+	forward	Uncharacterized
+Choline_transporter (2671)	yejK	9570	10616	+	forward	Portal
+Choline_transporter (2671)	BQ1898_06609	10619	11824	+	forward	Minor capsid
+CRISPR_I-Fa (225)	CRISPR	1	2007	+	forward	CRISPR
+CRISPR_I-Fa (225)	cas1	3058	2105	-	reverse	cas
+CRISPR_I-Fa (225)	cas6f	3678	3070	-	reverse	cas
+CRISPR_I-Fa (225)	cas7f	4742	3681	-	reverse	cas
+CRISPR_I-Fa (225)	cas5f	5656	4772	-	reverse	cas
+CRISPR_I-Fa (225)	cas8f	6819	5653	-	reverse	cas
+CRISPR_I-Fa (225)	CRISPR	7098	8507	+	forward	CRISPR
+CRISPR_I-Fa (225)	cas2_3	8632	11868	+	forward	cas
+Endonuclease (306)	F910_02967	1	456	+	forward	Other
+Endonuclease (306)	J567_1121	709	1296	+	forward	Other
+Endonuclease (306)	AC058_17440	1425	2336	+	forward	Other
+Endonuclease (306)	J567_1119	2587	3537	+	forward	Other
+Endonuclease (306)	J567_1118	3844	3542	-	reverse	Other
+Exonuclease (2071)	unknown14029	1	1383	+	forward	Uncharacterized
+Exonuclease (2071)	T630_1001	1494	3287	+	forward	Major capsid
+Exonuclease (2071)	unknown12	3315	4079	+	forward	Uncharacterized
+Exonuclease (2071)	queC	4072	5400	+	forward	Other
+Exonuclease (2071)	tatD	5400	6140	+	forward	Other
+Exonuclease (2071)	unknown13	6438	6160	-	reverse	Uncharacterized
+Nucleoid-associated_protein (148)	yejK__2	1	1086	+	forward	Other
+Nucleoid-associated_protein (148)	unknown2025	1114	2367	+	forward	Uncharacterized
+Nucleoid-associated_protein (148)	CAS83_05285	2360	2992	+	forward	Other
+Nucleoid-associated_protein (148)	unknown17916	3250	4200	+	forward	Uncharacterized
+Nucleoid-associated_protein (148)	unknown4743	4843	4316	-	reverse	Uncharacterized
+Nucleoid-associated_protein (148)	ABSDF1812__2	5460	4972	-	reverse	Other
+Nucleoid-associated_protein (148)	unknown2024	6083	5475	-	reverse	Uncharacterized
+Nucleoid-associated_protein (148)	unknown127	6638	6093	-	reverse	Uncharacterized
+P1virus (2217)	ABSDF2517	1	1158	+	forward	Other
+P1virus (2217)	J508_3243	1155	2039	+	forward	Other
+P1virus (2217)	unknown167	2030	2485	+	forward	Head-tail joining
+P1virus (2217)	unknown168	2600	3592	+	forward	Uncharacterized
+P1virus (2217)	unknown169	3769	3599	-	reverse	Uncharacterized
+P1virus (2217)	unknown170	3985	3770	-	reverse	Uncharacterized
+P1virus (2217)	unknown171	4191	3982	-	reverse	Uncharacterized
+P1virus (2217)	unknown18015	4697	4188	-	reverse	Uncharacterized
+P1virus (2217)	unknown172	5230	4694	-	reverse	Uncharacterized
+P1virus (2217)	unknown173	5402	5223	-	reverse	Uncharacterized
+P1virus (2217)	unknown174	5693	5403	-	reverse	Uncharacterized
+P1virus (2217)	J619_03012	6862	5834	-	reverse	Other
+P1virus (2217)	exoX__2	7555	6875	-	reverse	Other
+P1virus (2217)	unknown175	8097	7726	-	reverse	Uncharacterized
+P1virus (2217)	ABZJ_00919	8423	8094	-	reverse	Other
+P1virus (2217)	unknown176	8742	8482	-	reverse	Uncharacterized
+P1virus (2217)	unknown177	9630	8827	-	reverse	Major capsid
+P1virus (2217)	unknown178	10002	9670	-	reverse	Uncharacterized
+P1virus (2217)	unknown335	10493	10218	-	reverse	Uncharacterized
+P1virus (2217)	J508_3225	11194	10505	-	reverse	Other
+P1virus (2217)	J508_3224	11321	11554	+	forward	Other
+P1virus (2217)	unknown180	11587	11961	+	forward	Uncharacterized
+P1virus (2217)	unknown181	11995	12195	+	forward	Uncharacterized
+P1virus (2217)	unknown182	12192	12377	+	forward	Uncharacterized
+P1virus (2217)	unknown182	12374	12829	+	forward	Uncharacterized
+P1virus (2217)	unknown334	12826	13473	+	forward	Uncharacterized
+P1virus (2217)	_cysH_1	13470	14444	+	forward	Other
+P1virus (2217)	_cysH_1	14450	14836	+	forward	Other
+P1virus (2217)	bspRIM	14833	16311	+	forward	Other
+P1virus (2217)	unknown19310	16315	17358	+	forward	Uncharacterized
+P1virus (2217)	dnaC	17355	18119	+	forward	Other
+P1virus (2217)	unknown333	18116	18649	+	forward	Uncharacterized
+P1virus (2217)	p3ABAYE0097__3	19105	19560	+	forward	Other
+P1virus (2217)	T630_2262	20523	21212	+	forward	Other
+P1virus (2217)	T630_2262	21213	21899	+	forward	Other
+P1virus (2217)	T630_2261	21913	22749	+	forward	Minor capsid
+P1virus (2217)	unknown332	22865	23128	+	forward	Uncharacterized
+P1virus (2217)	dcm__37	23211	25499	+	forward	Other
+P1virus (2217)	J567_3287	25513	26568	+	forward	Other
+P1virus (2217)	unknown331	26892	27833	+	forward	Uncharacterized
+P1virus (2217)	ant	27898	28797	+	forward	Other
+P1virus (2217)	unknown330	29285	28869	-	reverse	Portal
+P1virus (2217)	ABZJ_00948	29483	30424	+	forward	Minor capsid
+P1virus (2217)	J633_0229	30390	30980	+	forward	Other
+P1virus (2217)	unknown2375	30980	31318	+	forward	Uncharacterized
+P1virus (2217)	unknown2374	31299	32744	+	forward	Uncharacterized
+P1virus (2217)	unknown186	32732	33346	+	forward	Uncharacterized
+P1virus (2217)	unknown19419	33425	33883	+	forward	Uncharacterized
+P1virus (2217)	unknown187	33895	34122	+	forward	Uncharacterized
+P1virus (2217)	ABZJ_00955	34195	35100	+	forward	Other
+P1virus (2217)	unknown2373	35103	35906	+	forward	Uncharacterized
+P1virus (2217)	J804_3307	35899	36099	+	forward	Other
+P1virus (2217)	unknown188	36111	36623	+	forward	Baseplate
+P1virus (2217)	unknown3556	36643	38634	+	forward	Uncharacterized
+P1virus (2217)	J633_0229	38707	40245	+	forward	Other
+P1virus (2217)	unknown189	40260	40538	+	forward	Uncharacterized
+P1virus (2217)	B9X62_15295	40540	41670	+	forward	Other
+P1virus (2217)	unknown2362	41660	42208	+	forward	Uncharacterized
+P1virus (2217)	unknown190	42205	42507	+	forward	Uncharacterized
+P1virus (2217)	unknown7005	42662	44440	+	forward	Major capsid
+P1virus (2217)	unknown191	44504	45130	+	forward	Major tail
+P1virus (2217)	unknown192	45135	45422	+	forward	Uncharacterized
+P1virus (2217)	unknown15541	45541	46836	+	forward	Uncharacterized
+P1virus (2217)	unknown193	46855	47622	+	forward	Major capsid
+P1virus (2217)	unknown6550	47684	47962	+	forward	Portal
+P1virus (2217)	ant	48944	48048	-	reverse	Other
+P1virus (2217)	p3ABAYE0083__2	49151	49402	+	forward	Other
+P1virus (2217)	relB	49936	50223	+	forward	Other
+P1virus (2217)	relE__2	50186	50452	+	forward	Other
+P1virus (2217)	unknown194	50579	51223	+	forward	Uncharacterized
+P1virus (2217)	unknown195	51223	51672	+	forward	Uncharacterized
+P1virus (2217)	unknown196	51672	52565	+	forward	Uncharacterized
+P1virus (2217)	unknown17354	52575	62930	+	forward	Major capsid
+P1virus (2217)	unknown194	62931	63329	+	forward	Uncharacterized
+P1virus (2217)	unknown329	63329	64099	+	forward	Uncharacterized
+P1virus (2217)	unknown199	64321	64127	-	reverse	Uncharacterized
+P1virus (2217)	ABZJ_00983	64480	66015	+	forward	Portal
+P1virus (2217)	unknown200	66015	66668	+	forward	Uncharacterized
+P1virus (2217)	ABZJ_00985	66742	68694	+	forward	Portal
+P1virus (2217)	unknown14779	68694	70145	+	forward	Uncharacterized
+P1virus (2217)	unknown14907	70296	70925	+	forward	Uncharacterized
+P1virus (2217)	ZPR_1421	70922	72001	+	forward	Other
+P1virus (2217)	unknown8344	72232	72930	+	forward	Uncharacterized
+P1virus (2217)	unknown328	73988	73089	-	reverse	Uncharacterized
+P1virus (2217)	p3ABAYE0083__3	74190	74438	+	forward	Other
+P1virus (2217)	unknown202	74526	75320	+	forward	Tail fiber
+P1virus (2217)	unknown18013	75320	76018	+	forward	Uncharacterized
+P1virus (2217)	unknown203	76050	76229	+	forward	Uncharacterized
+P1virus (2217)	F958_02309	76353	76640	+	forward	Other
+P1virus (2217)	A7M90_12505	76637	77407	+	forward	Other
+P1virus (2217)	ABSDF0707	78174	77533	-	reverse	Other
+P1virus (2217)	unknown127	79013	78171	-	reverse	Uncharacterized
+P1virus (2217)	unknown288	80174	79158	-	reverse	Uncharacterized
+P1virus (2217)	dinB	80678	80211	-	reverse	Other
+P1virus (2217)	_dinB_2	80815	80681	-	reverse	Other
+P1virus (2217)	unknown11	80964	81629	+	forward	Uncharacterized
+Restriction-Methylation_1 (41)	mcrB__7	1	3195	+	forward	Portal
+Restriction-Methylation_1 (41)	B9T29_14625	3195	4499	+	forward	Other
+Restriction-Methylation_1 (41)	hsdM__10	4837	6423	+	forward	Other
+Restriction-Methylation_1 (41)	hsdM2__2	6429	7916	+	forward	Other
+Restriction-Methylation_1 (41)	hsdS__18	7913	9049	+	forward	Other
+Restriction-Methylation_1 (41)	hsdR__15	9062	12124	+	forward	Portal
+Restriction-Methylation_1 (41)	ea59	12126	13742	+	forward	Other
+Restriction-Methylation_1 (41)	J517_1950	13742	14608	+	forward	Other
+Restriction-Methylation_1 (41)	AC058_17445	14885	15850	+	forward	Other
+Restriction-Methylation_1 (41)	J567_1118	16157	15855	-	reverse	Other
+Restriction-Methylation_2 (129)	unknown2619	1	915	+	forward	Uncharacterized
+Restriction-Methylation_2 (129)	B9X91_20725	1084	3297	+	forward	Other
+Restriction-Methylation_2 (129)	unknown19825	3284	4642	+	forward	Uncharacterized
+Restriction-Methylation_2 (129)	B9X91_20735	4639	6174	+	forward	Other
+Restriction-Methylation_2 (129)	unknown2699	7088	6249	-	reverse	Uncharacterized
+Restriction-Methylation_3 (324)	hsdM__18	1	2277	+	forward	Major capsid
+Restriction-Methylation_3 (324)	hsdS__34	2277	3671	+	forward	Other
+Restriction-Methylation_3 (324)	hsdR__21	3668	6928	+	forward	Portal
+Restriction-Methylation_3 (324)	unknown5262	7012	9549	+	forward	Uncharacterized
+Restriction-Methylation_3 (324)	unknown3079	9561	10877	+	forward	Uncharacterized
+Restriction-Methylation_3 (324)	unknown11963	11048	11998	+	forward	Uncharacterized
+Restriction-Methylation_3 (324)	J567_1118	12305	12003	-	reverse	Other
+Trehalose_biosynthesis (1810)	otsB__3	1	1722	+	forward	Other
+Trehalose_biosynthesis (1810)	sppA	1787	2650	+	forward	Tail fiber
+Trehalose_biosynthesis (1810)	J567_1119	3041	3991	+	forward	Other
+Trehalose_biosynthesis (1810)	J567_1118	4298	3996	-	reverse	Other
