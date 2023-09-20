@@ -28,4 +28,6 @@
 # Additional files
 * ref_phigaro_ab.fasta: prophages (references)
 * all_ab_phigaro_out_sup8kb.fasta: prophages (all)
-* ab_phigaro.asoc: (prophage clusters)
+* ab_phigaro.asoc: prophages (prophage clusters)
+* spacers_ab_uniq.fasta: non-redundant spacers
+* spacers_ab_uniq_types2.tsv: spacer types
