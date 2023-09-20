@@ -2,12 +2,10 @@
 use strict;
 
 # I-Fa: grep -wf ../types/ifa.ab ../genes/aba_genes_ssrA_dr2.tsv | cut -f3 | grep "[^,]+,CRISPR,[^,]+" -Eo | grep -v thiE | sus
-my $VIR = "unknown5757";
-my $BET = "BQ1898_06609";
-my $TRA = "unknown1879";
-my $IFB  = "thiE|csy4";
-my $IFA1 = "cas1__2|ssrA";
-my $IFA2 = "cas3__2|unknown975";
+my %C = ("AO964_23250" => "C1", "CP54" => "C2", # "cas2" => "C" 
+         "ygbF" => "E1", "cas3" => "E2",
+         "cas6f" => "F1", "cas1__3" => "F2",
+         "yceJ_3" => "V1"); # aparece en I-C, I-E e I-F
 
 my %G;
 open in, "../../types/crispr.ab";
@@ -25,7 +23,7 @@ open SP, ">spacers_ab.fasta";
 print NS "Array\tFrequency\n";
 
 my %nrep; my %nrp; my %nsp;
-open in, "../../genes/aba_genes.tsv";
+open in, "../../genes/aba_genes_ssrA_dr.tsv";
 while (<in>) {
   chomp;
 
@@ -43,50 +41,17 @@ while (<in>) {
     #print "$ab $id - $p1 $p2 - $g1 $g2\n"; 
 
     # Classify
-    if ($g1 eq $VIR || $g2 eq $VIR) {
-      if ($type eq "ifa2") {
-        $type[$x-1] = "vir2";
-      } else {
-        $type = "vir1";
-      }
-    } elsif ($g1 eq $BET || $g2 eq $BET) {
-      if ($type eq "ifa2") {
-        $type[$x-1] = "bet2";
-      }
-      $type = "bet1";
-    } elsif ($g1 eq $TRA || $g2 eq $TRA) {
-      if ($type eq "ifa1") {
-        $type[$x-1] = "tra1";
-        $type = "tra2";
-      } else {
-        $type = "tra2";
-      }
-    } elsif ($IFB =~ /$g1/ || $IFB =~ /$g2/) {
-      $type =  "ifb";
-    } elsif ($IFA1 =~ /$g1/ || $IFA1 =~ /$g2/) {
-      if ($type eq "tra1") {
-        $type[$x-1] = "tra2";
-        $type = "tra1";
-      } elsif ($type eq "tra2") {
-        $type = "tra1"; 
-      } else {
-        $type =  "ifa1";
-      }
-    } elsif ($IFA2 =~ /$g1/ || $IFA2 =~ /$g2/) {
-      if ($type eq "vir1") {
-        $type = "vir2";
-      } elsif ($type eq "bet1") {
-        $type = "bet2";
-      } else {
-        $type = "ifa2";
-      }
-    } 
+    if ($C{$g1}) {
+      $type = $C{$g1};
+    } elsif ($C{$g2}) {
+      $type = $C{$g2};
+    }
 
     next unless $type;
 
     my $strand;
-    my $flag = 0;      
-    open crispr, "/home/ajperez/databases/ab/ccfinder/$ab/$id.gff";
+    my $flag = 0;
+    open crispr, "/mnt/data/pangenomes/backup/pa/pa/ccfinder/$ab/GFF/$id.gff";
     my (@lines) = <crispr>;
     close crispr;
 
@@ -106,15 +71,15 @@ while (<in>) {
           #print "$rep\n";
 
           # Direction
-          if ($rep =~ /^(GTT|TTC|AGT|CAT)/) {
-            $strand = 0; # forward
-          } elsif ($rep =~ /^(TTT|ATT)/) {
-            $strand = 1; # reverse
-          } else {
-            $strand = 2; # unknown
-          }
+          #if ($rep =~ /^(GTT|TTC|AGT|CAT)/) {
+          #  $strand = 0; # forward
+          #} elsif ($rep =~ /^(TTT|ATT)/) {
+          #  $strand = 1; # reverse
+          #} else {
+          #  $strand = 2; # unknown
+          #}
 
-          #print "$rep $ns $dir\n"; # to control repeat sequences
+          print "$type\t$rep\t$ns\t$dir\n"; # to control repeat sequences
           $ns[$x] = $ns; $type[$x] = $type; $rep[$x] = $rep;
         }
       } elsif ($att eq "CRISPRspacer" && $flag == 1) {
@@ -183,3 +148,4 @@ close REP;
 close SP;
 
 exit;
+
