@@ -4,12 +4,16 @@ library(pheatmap)
 library(dplyr)
 library(grid)
 
-setwd("/home/ajperez/Nextcloud/ncbidatasets/ab/cancun/phigaro")
+setwd("ab/cancun/phigaro")
 
 virus <- readLines("../../spacers_new/virus_100_phage.id")
-virus <- c("P1virus", "P1virus.incomplete.", "Phage.plasmid", virus)
+virus <- c("DgiS1", "DgiS1(incomplete)", "PPTOP", virus)
 strains <- readLines("../../strains.ab")
 gnmatrix <- read.csv("phage_matrix_p1virus.tsv", header = T, sep = '\t', row.names = 1)
+gnmatrix <- gnmatrix %>% rename("DgiS1" = "P1virus")
+gnmatrix <- gnmatrix %>% rename("DgiS1(incomplete)" = "P1virus.incomplete.")
+gnmatrix <- gnmatrix %>% rename("PPTOP" = "Phage.plasmid")
+
 gnmatrix <- gnmatrix %>% select(any_of(virus))
 gnmatrix <- gnmatrix %>% filter(row.names(gnmatrix) %in% strains)
 gnmatrix <- as.matrix(gnmatrix)
@@ -26,7 +30,7 @@ p <- pheatmap(gnmatrix, show_rownames = 0, show_colnames = 1, treeheight_col = 0
              annotation_colors = colores)
 print(p)
 
-setwd("/home/ajperez/Documentos/Articulos/ABA Project/ABA2 - Cancun/Figures/def/")
+setwd("Figures/def/")
 pdf("supplfigs2.pdf", width = 12, height = 7)
 grid.text("Genomes", x = 0.89, y = 0.55, rot = 90)
 print(p)

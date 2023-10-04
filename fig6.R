@@ -3,22 +3,20 @@ library(data.table)
 library(dplyr)
 library(RColorBrewer)
 library(ggpubr)
+library(stringr)
 
-setwd("/home/ajperez/nc/ncbidatasets/ab/spacers_new")
+setwd("ab/spacers_new")
 t <- read.csv("variants_spacers2.tsv", sep = "\t") # variants_spacers2.tsv para ifa1 the same as tra1 vir1 bet1
+t <- t %>% mutate(across('Phage_cluster', str_replace, "P1virus", "DgiS1"))
+t <- t %>% mutate(across('Phage_cluster', str_replace, "Phage-plasmid", "PPTOP"))
 t2 <- t %>% select("Phage_cluster", "fa_ifa1", "fa_ifa2", "fa_ifb", "fas_ifa1", "fas_ifa2", "fas_ifb", "fasp_ifa1", "fasp_ifa2", "fasp_ifb")
-#colnames(t2) <- c("Phage", "I-Fa1 (no. variants)", "I-Fa2 (no. variants)", "I-Fb (no. variants)", "I-Fa1 (no. genomes)", "I-Fa2 (no. genomes)", "I-Fb (no. genomes)",
-#                  "I-Fa1 (no. spacers)", "I-Fa2 (no. spacers)", "I-Fb (no. spacers)")
 
 t <- t %>% select("Phage_cluster", "fr_ifa1", "fr_ifa2", "fr_ifb", "frs_ifa1", "frs_ifa2", "frs_ifb", "frsp_ifa1", "frsp_ifa2", "frsp_ifb")
-#colnames(t) <- c("Phage", "I-Fa1 (% variants)", "I-Fa2 (% variants)", "I-Fb (% variants)", "I-Fa1 (% genomes)", "I-Fa2 (% genomes)", "I-Fb (% genomes)",
-#                 "I-Fa1 (% spacers)", "I-Fa2 (% spacers)", "I-Fb (% spacers)")
 
 t[,c(8,9,10)] <- t[,c(8,9,10)]*10
 df <- melt(t, id.vars = "Phage_cluster", variable.name = "Type", value.name = "Count")
 df2 <- melt(t2, id.vars = "Phage_cluster", variable.name = "Type", value.name = "Count")
 
-#getPalette <- colorRampPalette(brewer.pal(9, "Set2")) # getPalette(9)
 colores = c("#FF7F00", "#FDBF6F", "#1F78B4", "#FF7F00", "#FDBF6F", "#1F78B4", "#FF7F00", "#FDBF6F", "#1F78B4")
 types1 <- c("fr_ifa1" = "I-Fa1", "fr_ifa2" = "I-Fa2", "fr_ifb" = "I-Fb",
             "frs_ifa1" = "I-Fa1", "frs_ifa2" = "I-Fa2", "frs_ifb" = "I-Fb",
@@ -37,14 +35,15 @@ print(p1)
 
 # Output
 f1 <- ggarrange(p1)
-fig1 <- f1 + annotate('segment', x = 0.1, xend = 0.39, y = 0.96, yend = 0.96, size = 1.2) +
-  annotate('text', x = 0.24, y = 0.98, label = "% of recognized variants of the virus") +
-  annotate('segment', x = 0.4, xend = 0.69, y = 0.96, yend = 0.96, size = 1.2) +
-  annotate('text', x = 0.54, y = 0.98, label = "% of genomes with spacers against this phage") +
-  annotate('segment', x = 0.70, xend = 0.99, y = 0.96, yend = 0.96, size = 1.2) +
-  annotate('text', x = 0.84, y = 0.98, label = "% of different spacers")
+fig1 <- f1 + 
+  annotate('segment', x = 0.105, xend = 0.39, y = 0.96, yend = 0.96, size = 1.2) +
+  annotate('text', x = 0.245, y = 0.98, label = "% of recognized variants of the phage") +
+  annotate('segment', x = 0.405, xend = 0.695, y = 0.96, yend = 0.96, size = 1.2) +
+  annotate('text', x = 0.545, y = 0.98, label = "% of genomes with spacers against this phage") +
+  annotate('segment', x = 0.71, xend = 0.995, y = 0.96, yend = 0.96, size = 1.2) +
+  annotate('text', x = 0.845, y = 0.98, label = "% of different spacers")
 
-setwd("/home/ajperez/Documentos/Articulos/ABA Project/ABA2 - Cancun/Figures/def/")
+setwd("Figures/def/")
 pdf("fig6.pdf", width = 12, height = 8)
 print(fig1)
 dev.off()
@@ -66,14 +65,15 @@ p2 <- ggplot(df2, aes(Count, Phage_cluster, fill = Type)) +
 print(p2)
 
 f2 <- ggarrange(p2)
-fig2 <- f2 + annotate('segment', x = 0.1, xend = 0.39, y = 0.96, yend = 0.96, size = 1.2) +
-  annotate('text', x = 0.24, y = 0.98, label = "No. of recognized variants of the virus") +
-  annotate('segment', x = 0.4, xend = 0.69, y = 0.96, yend = 0.96, size = 1.2) +
-  annotate('text', x = 0.54, y = 0.98, label = "No. of genomes with spacers against this phage") +
-  annotate('segment', x = 0.70, xend = 0.99, y = 0.96, yend = 0.96, size = 1.2) +
-  annotate('text', x = 0.84, y = 0.98, label = "No. of different spacers")
+fig2 <- f2 + 
+  annotate('segment', x = 0.105, xend = 0.39, y = 0.96, yend = 0.96, size = 1.2) +
+  annotate('text', x = 0.245, y = 0.98, label = "No. of recognized variants of the phage") +
+  annotate('segment', x = 0.405, xend = 0.695, y = 0.96, yend = 0.96, size = 1.2) +
+  annotate('text', x = 0.545, y = 0.98, label = "No. of genomes with spacers against this phage") +
+  annotate('segment', x = 0.71, xend = 0.995, y = 0.96, yend = 0.96, size = 1.2) +
+  annotate('text', x = 0.845, y = 0.98, label = "No. of different spacers")
 
-setwd("/home/ajperez/Documentos/Articulos/ABA Project/ABA2 - Cancun/Figures/def/")
+setwd("Figures/def/")
 pdf("supplfigs3.pdf", width = 12, height = 8)
 print(fig2)
 dev.off()
