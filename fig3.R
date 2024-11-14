@@ -6,10 +6,12 @@ library(ggpubr)
 library(forcats)
 library(ggVennDiagram)
 library(readxl)
-
-setwd("./")
+library(pheatmap)
+library(ComplexHeatmap)
+library(stringr)
 
 inames <- as.data.frame(readxl::read_excel("islands.xlsx", sheet = "Islands"))
+#cancun <- as.data.frame(readxl::read_excel("islands.xlsx", sheet = "Cancun_filtered"))
 cancun <- read_excel("islands.xlsx", sheet = 3, col_names = TRUE, col_types = "text")
 
 cancun <- cancun %>% filter(!if_all(p1:p6, is.na))
@@ -25,11 +27,9 @@ mis_colores[6] <- "darkorange"
 mis_colores[10] <- "#E377C2"
 mis_colores[12] <- "#EFC000"
 mis_colores[14] <- mis_colores[5]
+#mis_colores[13] <- mis_colores[14]
 mis_colores[13] <- "#D04C4C"
 mis_colores[5] <- "#00468B"
-mi_breaks <- levels(factor(c("DgiS1","Choline_transporter","Trehalose_biosynthesis","CRISPR","Exonuclease","Endonuclease",
-              "Restriction-methylation_1","Restriction-methylation_2","Restriction-methylation_3","Nucleoid-associated protein",
-              "Asparagine_synthase","Other","Gene_core")))
 
 # Hash
 dmap <- hash::hash(inames$Gene, inames$Name)
@@ -51,6 +51,7 @@ p1 <- ggplot(data, aes(x = position, y = Frequency, fill = gene)) +
   labs(fill = "Genomic island") + xlab("Position") +
   guides(colour = guide_legend(ncol1 = 2), fill = guide_legend(ncol = 2)) +
   scale_x_discrete(label = c("p1 (9,095)", "p2 (5,767)", "p3 (3,298)", "p4 (1,565)", "p5 (14)", "p6 (3)"))
+  
 print(p1)
 
 alline <- 0.3
@@ -85,8 +86,6 @@ p2 <- ggplot(cancunf, aes(x = fct_rev(fct_inorder(Order)), y = Frequency, fill =
 print(p2)
 
 # Venn diagram
-setwd("ab/spacers_new")
-
 p1virus <- readLines("p1virus.ab")
 p1virus_i <- readLines("p1virus_incomplete.ab")
 ifa <- readLines("../types/ifa.ab")
@@ -97,17 +96,34 @@ fvenn <- ggVennDiagram(dvenn, label_alpha = 0.5) +
   scale_fill_gradient2(low = "white", high = "darkred") +
   scale_color_manual(values = c("black", "black", "black", "black")) +
   labs(fill = "No. genomes") +
+#  geom_rect(aes(xmin = 0, xmax = 0.4, ymin = 1, ymax = 58), fill = "white") +
   theme(legend.position = "top", legend.key.width = unit(1.1, "cm"))
 print(fvenn)
+
+# Complete-Incomplete
+df <- readxl::read_excel("Genes DgiS - complete_incomplete2.xlsx")
+df <- df %>% mutate(Annotation = str_replace_all(Annotation, "\\([^()]{0,}\\)", ""))
+
+df2 <- df[ ,c(8, 9)]
+rownames(df2) <- df$Annotation
+mat <- as.matrix(t(df2))
+
+ci <- ComplexHeatmap::pheatmap(mat, treeheight_row = 0, treeheight_col = 0, cutree_rows = 2, fontsize = 12, legend = T,
+                                name = "Frequency (%)", cluster_cols = F, border_color = "darkgrey",
+                                color = colorRampPalette(c("white", "grey", "yellow", "orange", "#25123C"))(100),
+                                show_column_dend = F, show_row_dend = F)
+print(ci)
 
 # Output
 fig2 <- ggarrange(p2, fvenn, 
           labels = c("B", "C"), nrow = 1, widths = c(1, 0.7))
-fig <- ggarrange(p1, fig2, 
-          labels = c("A", ""), nrow = 2)
+fig <- ggarrange(print(p1), print(fig2), print(ci),
+          labels = c("A", "", "D"), nrow = 3)
 
-setwd("Figures/def/")
-pdf("fig3.pdf", width = 12, height = 10)
+pdf("fig3ABC.pdf", width = 12, height = 10)
 print(fig)
 dev.off()
 
+svg("fig3.svg", width = 12, height = 14)
+print(fig)
+dev.off()
